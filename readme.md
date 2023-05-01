@@ -94,6 +94,10 @@ By combining the static path planning with the D* algorithm, dynamic obstacle av
     + 📁 **scripts/**
         - *contains associated Python scripts from the scene*
         - 📄 dstar_path.py
+            + *dstar path planning algorithm*
         - 📄 motion_planner.py
+            + *motion planning algorithm with targets and wheeled robots*
         - 📄 robot1.py
+            + *policy for avoiding other dynamic obstacles*
         - 📄 robot2.py
+            + *policy for avoiding other dynamic obstacles*
