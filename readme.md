@@ -100,4 +100,4 @@ By combining the static path planning with the D* algorithm, dynamic obstacle av
         - 📄 robot1.py
             + *policy for avoiding other dynamic obstacles*
         - 📄 robot2.py
-            + *policy for avoiding other dynamic obstacles*
+            + >*policy for avoiding other dynamic obstacles*
