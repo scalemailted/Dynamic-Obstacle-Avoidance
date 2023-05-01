@@ -34,10 +34,7 @@ TODO breakdown the algorithm for this assignment
 **multiagent-avoidance.tt**
 > TODO explain this version 
 
-![Demo: CoppeliaSim](./assets/coppeliasim-sphere-sample.gif)
-
-
-
+![Demo: CoppeliaSim](./assets/coppeliasim.gif)
 
 
 ---
@@ -48,7 +45,7 @@ TODO breakdown the algorithm for this assignment
 - 📁 **coppeliasim/**
     + 📁 **scenes/**
         - *contains CoppeliaSim scenes (.tt)*
-        - 📄 random_sphere_selection.tt
+        - 📄 multiagent-avoidance.tt
     + 📁 **scripts/**
         - *contains associated Python scripts from the scene*
         - 📄 coppeliasim_random_sphere_selection.py
