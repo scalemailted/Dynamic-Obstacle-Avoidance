@@ -58,9 +58,9 @@ The algorithm involves the following steps to handle dynamic obstacle avoidance:
   3. Adjust the position of the target sphere for each robot to the current pose in the path.
 
 4. Sensor-based Control and Braitenberg Algorithm:
-  1. Ultrasonic sensors are used to detect obstacles, with special focus on other robots in the environment.
-  2. The Braitenberg algorithm is implemented to control the robot's movement based on the sensor inputs, avoiding collisions.
-  3. The robots' wheel speeds are adjusted based on the detected obstacles and their proximity. The path-following behavior is combined with the obstacle avoidance behavior using a weight factor.
+    1. Ultrasonic sensors are used to detect obstacles, with special focus on other robots in the environment.
+    2. The Braitenberg algorithm is implemented to control the robot's movement based on the sensor inputs, avoiding collisions.
+    3. The robots' wheel speeds are adjusted based on the detected obstacles and their proximity. The path-following behavior is combined with the obstacle avoidance behavior using a weight factor.
 
 5. Actuation:
 Based on the calculated wheel speeds, the motors are actuated to control the robot's movement.
