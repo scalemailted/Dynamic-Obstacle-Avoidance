@@ -33,7 +33,12 @@ One approach to dynamic obstacle avoidance is to use sensors to detect the prese
 ---
 
 ## Key Features
-TODO list the item features of thus porject
+1. **Multi-agent robotics:** The project involves multiple agents that move and interact with each other in real-time, requiring a more sophisticated approach to avoid collisions.
+2. **Dynamic obstacle avoidance:** The project implements a strategy to avoid dynamically moving obstacles, which involves predicting their trajectory, anticipating future movements, and planning a trajectory to avoid collisions.
+3. **Path planning:** The project uses D* algorithm to plan paths that avoid stationary obstacles and reach the goal.
+4. **Sensor-based control:** The project uses ultrasonic sensors to detect obstacles, and adjust the robot's behavior to avoid collisions.
+5. **Braitenberg algorithm:** The project implements the Braitenberg algorithm for obstacle avoidance, which uses a weighted sum of sensor inputs to control the robot's movement.
+Threaded scripting: The project uses threaded scripting to allow for concurrent execution of multiple tasks.
 
 ---
 
