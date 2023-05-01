@@ -57,15 +57,15 @@ The algorithm involves the following steps to handle dynamic obstacle avoidance:
     2. For each robot, calculate the desired orientation based on the direction to the next pose in the path
     3. Adjust the position of the target sphere for each robot to the current pose in the path.
 
-4. Sensor-based Control and Braitenberg Algorithm:
+4. **Sensor-based Control and Braitenberg Algorithm**:
     1. Ultrasonic sensors are used to detect obstacles, with special focus on other robots in the environment.
     2. The Braitenberg algorithm is implemented to control the robot's movement based on the sensor inputs, avoiding collisions.
     3. The robots' wheel speeds are adjusted based on the detected obstacles and their proximity. The path-following behavior is combined with the obstacle avoidance behavior using a weight factor.
 
-5. Actuation:
+5. **Actuation**:
 Based on the calculated wheel speeds, the motors are actuated to control the robot's movement.
 
-6. Concurrency:
+6. **Concurrency**:
 Threaded scripting is used to enable concurrent execution of multiple tasks, such as path following and obstacle avoidance.
 
 By combining the static path planning with the D* algorithm, dynamic obstacle avoidance using sensor-based control, and the Braitenberg algorithm, the robots can successfully navigate through the environment and exchange their initial positions while avoiding collisions with both static and moving obstacles.
