@@ -93,4 +93,7 @@ By combining the static path planning with the D* algorithm, dynamic obstacle av
         - 📄 multiagent-avoidance.tt
     + 📁 **scripts/**
         - *contains associated Python scripts from the scene*
-        - 📄 coppeliasim_random_sphere_selection.py
+        - 📄 robot1.py
+        - 📄 robot2.py
+        - 📄 motion_planner.py
+        - 📄 dstar_path.py
