@@ -45,27 +45,28 @@ Threaded scripting: The project uses threaded scripting to allow for concurrent 
 ## Algorithmic Overview:
 The algorithm implemented in this project can be broken down into the following components:
 
-Initialization:
+1. **Initialization:**
 The environment is set up, with two PioneerP3DX robots initialized at random orientations, one at the start position and the other at the goal position. Ultrasonic sensors and motors are initialized, and objects representing the target positions are created.
 
-Path Planning with D* Algorithm:
+2. **Path Planning with D* Algorithm:**
 The D* algorithm is used to plan a collision-free path from the start position to the goal position while avoiding static obstacles. The resulting path is stored as a matrix, with the reversed path stored separately for the second robot.
 
-Dynamic Obstacle Avoidance:
+3. **Dynamic Obstacle Avoidance:**
 The algorithm involves the following steps to handle dynamic obstacle avoidance:
+
 a. Move target spheres along the planned path and reversed path matrices for Robot1 and Robot2, respectively.
-b. For each robot, calculate the desired orientation based on the direction to the next pose in the path.
+b. For each robot, calculate the desired orientation based on the direction to the next pose in the path
 c. Adjust the position of the target sphere for each robot to the current pose in the path.
 
-Sensor-based Control and Braitenberg Algorithm:
+4. Sensor-based Control and Braitenberg Algorithm:
 a. Ultrasonic sensors are used to detect obstacles, with special focus on other robots in the environment.
 b. The Braitenberg algorithm is implemented to control the robot's movement based on the sensor inputs, avoiding collisions.
 c. The robots' wheel speeds are adjusted based on the detected obstacles and their proximity. The path-following behavior is combined with the obstacle avoidance behavior using a weight factor.
 
-Actuation:
+5. Actuation:
 Based on the calculated wheel speeds, the motors are actuated to control the robot's movement.
 
-Concurrency:
+6. Concurrency:
 Threaded scripting is used to enable concurrent execution of multiple tasks, such as path following and obstacle avoidance.
 
 By combining the static path planning with the D* algorithm, dynamic obstacle avoidance using sensor-based control, and the Braitenberg algorithm, the robots can successfully navigate through the environment and exchange their initial positions while avoiding collisions with both static and moving obstacles.
