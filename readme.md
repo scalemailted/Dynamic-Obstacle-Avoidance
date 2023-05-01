@@ -53,9 +53,9 @@ The D* algorithm is used to plan a collision-free path from the start position t
 
 3. **Dynamic Obstacle Avoidance:**
 The algorithm involves the following steps to handle dynamic obstacle avoidance:
- a. Move target spheres along the planned path and reversed path matrices for Robot1 and Robot2, respectively.
- b. For each robot, calculate the desired orientation based on the direction to the next pose in the path
- c. Adjust the position of the target sphere for each robot to the current pose in the path.
+  i. Move target spheres along the planned path and reversed path matrices for Robot1 and Robot2, respectively.
+  ii. For each robot, calculate the desired orientation based on the direction to the next pose in the path
+  iii. Adjust the position of the target sphere for each robot to the current pose in the path.
 
 4. Sensor-based Control and Braitenberg Algorithm:
  a. Ultrasonic sensors are used to detect obstacles, with special focus on other robots in the environment.
