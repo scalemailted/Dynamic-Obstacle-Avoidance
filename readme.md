@@ -86,7 +86,7 @@ By combining the static path planning with the D* algorithm, dynamic obstacle av
 
 ## Project Hierarchy 
 - 📁 **assets/**
-    + >*contains all images in readme documentation*
+    >*contains all images in readme documentation*
 - 📁 **coppeliasim/**
     + 📁 **scenes/**
         - >*contains CoppeliaSim scenes (.tt)*
