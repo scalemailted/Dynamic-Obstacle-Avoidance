@@ -17,7 +17,7 @@ In multiagent robotics, avoiding both static and moving obstacles is crucial. St
 ### Static Obstacle Avoidance
 
 #### Overview
-Static obstacle avoidance involves planning a path from a start location to a goal location while avoiding stationary obstacles like walls, rocks, or other fixed objects. This approach is often used in robotics applications to ensure that the robot can safely navigate its environment without colliding with any obstacles.
+Static obstacle avoidance involves planning a path from a start location to a goal location while avoiding stationary obstacles like walls or other fixed objects. This approach is often used in robotics applications to ensure that the robot can safely navigate its environment without colliding with any obstacles.
 
 #### D* Algorithm
 One approach to static obstacle avoidance is to use the D* algorithm. This algorithm works by iteratively updating the path from the start to the goal as new obstacles are discovered. The algorithm uses a heuristic function to estimate the cost of the remaining path, which allows it to avoid areas with obstacles and find a safe path to the goal.
@@ -25,10 +25,10 @@ One approach to static obstacle avoidance is to use the D* algorithm. This algor
 ### Dynamic Obstacle Avoidance
 
 #### Overview
-Dynamic obstacle avoidance involves detecting and avoiding moving obstacles or agents, such as other robots or pedestrians. This approach is often used in multi-agent robotics applications to ensure that robots can navigate in real-time without colliding with each other or other moving objects.
+Dynamic obstacle avoidance involves detecting and avoiding moving obstacles or agents, such as other robots. This approach is necessary in multi-agent applications to ensure that robots can navigate in real-time without colliding with each other or other moving objects.
 
 #### Sensor-Based Approach
-One approach to dynamic obstacle avoidance is to use sensors to detect the presence of other agents or obstacles. The robot can then maneuver to avoid the obstacle using a set of rules similar to the road rules of veering towards the right when the path ahead is clear, and continuing its movement. Once the obstacle is cleared, the robot can recorrect its course back onto the planned path. This approach is based on the principles of defensive driving and is commonly used in robotics applications.
+One approach to dynamic obstacle avoidance is to use sensors to detect the presence of other agents or obstacles. The robot can then maneuver to avoid the obstacle using a set of rules similar to the road rules of veering towards the right when the path ahead is clear, and continuing its movement. Once the obstacle is cleared, the robot can recorrect its course back onto the planned path. This approach is based on the principles of defensive vehicular driving.
 
 ---
 
