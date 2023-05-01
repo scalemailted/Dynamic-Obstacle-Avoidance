@@ -77,7 +77,7 @@ By combining the static path planning with the D* algorithm, dynamic obstacle av
 ### *CoppeliaSim* 
 
 **multiagent-avoidance.tt**
-> TODO explain this version 
+> Two wheeled robots avoid collision while following the same road from oppsite approaches
 
 ![Demo: CoppeliaSim](./assets/coppeliasim.gif)
 
