@@ -86,18 +86,18 @@ By combining the static path planning with the D* algorithm, dynamic obstacle av
 
 ## Project Hierarchy 
 - 📁 **assets/**
-    + *contains all images in readme documentation*
+    + >*contains all images in readme documentation*
 - 📁 **coppeliasim/**
     + 📁 **scenes/**
-        - *contains CoppeliaSim scenes (.tt)*
+        - >*contains CoppeliaSim scenes (.tt)*
         - 📄 multiagent-avoidance.tt
     + 📁 **scripts/**
-        - *contains associated Python scripts from the scene*
+        - >*contains associated Python scripts from the scene*
         - 📄 dstar_path.py
-            + *dstar path planning algorithm*
+            + >*dstar path planning algorithm*
         - 📄 motion_planner.py
-            + *motion planning algorithm with targets and wheeled robots*
+            + >*motion planning algorithm with targets and wheeled robots*
         - 📄 robot1.py
-            + *policy for avoiding other dynamic obstacles*
+            + >*policy for avoiding other dynamic obstacles*
         - 📄 robot2.py
             + >*policy for avoiding other dynamic obstacles*
